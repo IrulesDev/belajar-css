@@ -1,0 +1,41 @@
+/* type selector */
+*{
+    /* untuk semua text di paragraph */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: darkgoldenrod;
+    font-family: Grenze Gotisch;
+    font-size: 50px;
+}
+h2{
+    color: rgb(40, 65, 146);
+}
+
+/* class selector */
+.penulis{
+    color: darkcyan;
+}
+
+/* id selector */
+#kesimpulan{
+    color: blueviolet;
+}
+
+/* child selector */
+p>span{
+    color: darkcyan;
+}
+p b{
+    color: chartreuse;
+}
+
+/* firs child selector */
+h3+p+p{
+    color: grey;
+}
+
+/* all child  */
+h3~p{
+    text-align: justify;
+}
